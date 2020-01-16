@@ -24,5 +24,3 @@ You have been provided with a text file with the smaller data set below and also
 This histogram for this should resemble the following (note that since yours will be rendered in a console, it will not look exactly like this. You can use this as a reference for how you are progressing by comparing the bins and the height of the bars):
 
 ![Histogram image](https://raw.githubusercontent.com/cgburgess/histogram-java/master/data/7_bins_sample_data.png?token=ACEV5YSRFU3RPDPCKWOH4526FEFIU)
-
-> If you find it difficult to copy and paste the input into your terminal for every run consider [piping](https://en.wikipedia.org/wiki/Pipeline_(Unix)) the result of the `cat` program into your program. This will only work if you are using a unix like OS (Linux or OSX). If you are using Windows and are interested in doing this (and for development going forward it is beneficial) get [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10). The command to run would look like the following: `cat data/nba_heights.txt | java -classpath "out/production/histogram-java" Histogram`
